@@ -2,7 +2,7 @@
 //USO DE PACKAGE
 package PracticasRoadmap;
 
-	// HERENCIA → CuentaAhorro hereda de Cuenta
+	//HERENCIA
 	public class CuentaAhorro extends Cuenta {
 
 	    // CONSTRUCTOR
@@ -10,7 +10,7 @@ package PracticasRoadmap;
 	        super(titular, saldo); // llama al constructor padre
 	    }
 
-	    //SOBRESCRITURA (Override)
+	    //SOBRESCRITURA 
 	    @Override
 	    public void retirar(double monto) {
 	        System.out.println("Retiro desde cuenta de ahorro");
