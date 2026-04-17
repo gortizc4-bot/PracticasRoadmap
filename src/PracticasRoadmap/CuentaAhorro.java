@@ -2,7 +2,7 @@
 //USO DE PACKAGE
 package PracticasRoadmap;
 
-	//HERENCIA
+	//Herencia de clase padre cuenta 
 	public class CuentaAhorro extends Cuenta {
 
 	    // CONSTRUCTOR
