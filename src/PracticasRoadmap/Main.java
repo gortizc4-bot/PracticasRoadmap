@@ -29,7 +29,19 @@ public class Main {
 	        } catch (Exception e) {
 	            System.out.println("Error detectado: " + e.getMessage());
 	        }
+	        
+	        System.out.println("\n========Polimorfismo=========");
+	        // Objeto tipo Animal pero con forma de Perro
+	        Animal a1 = new Perro();
+
+	        // Objeto tipo Animal pero con forma de Gato
+	        Animal a2 = new Gato();
+
+	        // Cada objeto ejecuta su propio método
+	        a1.sonido();
+	        a2.sonido();
 	    }
-	}
+	    }
+	
 
 
