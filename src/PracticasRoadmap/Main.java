@@ -40,7 +40,17 @@ public class Main {
 	        // Cada objeto ejecuta su propio método
 	        a1.sonido();
 	        a2.sonido();
-	    }
+	    
+	        System.out.println("\n========Sobrecarga=========");
+	    // Crear objeto
+        Saludo s = new Saludo();
+
+        // Llamar al primer método
+        s.hola("Briseyda ");
+
+        // Llamar al segundo método
+        s.hola("Giselle", 19);
+    }
 	    }
 	
 
